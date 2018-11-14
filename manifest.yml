@@ -1,0 +1,10 @@
+applications:
+  - path: .
+    name: fazenda-bom-sucesso4
+    environment_json: {}
+    memory: 256M
+    instances: 1
+    disk_quota: 1024M
+    services:
+      - fazenda-bom-sucesso4-iotf-service
+      - fazenda-bom-sucesso4-cloudantNoSQLDB
